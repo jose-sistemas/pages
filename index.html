@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="indexcss.css">
+    <meta charset="UTF-8">
+    <title>
+        Survey Form</title>
+</head>
+
+<body>
+    <div class="container--2">
+        <h1 id="title">
+            Survey Form</h1>
+        <p class="container--p" id="description">Thank you for helping us improve
+        </p>
+    </div>
+    <div class="container">
+        <form id="survey-form">
+            <label id="name-label">name<input id="name" type="text" placeholder="say your name
+" required></label id="email-label">
+            <label id="email-label">email<input type="email" id="email" placeholder="say your email
+" required></label id="number-label">
+
+            <label id="number-label">age<input type="number" id="number" placeholder="Enter your age" max="100"
+                    min="10"></label>
+
+            <label>gender</label>
+            <label id="gender"><input type="radio" name="gender" value="male">male</label>
+            <label id="gender" checkbox><input type="radio" name="gender" value="female" checkbox>female</label>
+
+
+            <label> select your profession</label>
+            <select id="dropdown">
+                <option>student</option>
+                <option>teacher</option>
+                <option>autodidact</option>
+                <option>I prefer not to say
+                </option>
+                <option>other
+                </option>
+            </select>
+
+            <label>Select your interests:</label>
+            <label id="interests">
+                <input type="checkbox" name="interests" value="sports"> Sports
+            </label>
+            <label id="interests">
+                <input type="checkbox" name="interests" value="music"> Music
+            </label>
+            <label id="interests">
+                <input type="checkbox" name="interests" value="travel"> Travel
+            </label>
+            <label id="interests">
+                <input type="checkbox" name="interests" value="reading"> Reading
+            </label>
+            <label>
+                give us your suggestion</label>
+            <textarea placeholder="give us your suggestion"></textarea>
+
+
+            <input id="submit" type="submit">
+            <label>
+            </label>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
